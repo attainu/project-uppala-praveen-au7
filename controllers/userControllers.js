@@ -19,9 +19,7 @@ async function authenticate({ email, password }) {
 
 async function tokenVerify(req, res, next) {
   const token = req.headers.authorization.split(" ")[1];
-  //console.log(token);
   const id = jwt.verify(token, config.secret);
-  //console.log(id);
   req.id = id.sub;
   next();
 }

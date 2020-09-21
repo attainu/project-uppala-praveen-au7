@@ -12,19 +12,8 @@ var userSchema = new Schema({
   },
   hash: { type: String, required: true },
   createdDate: { type: Date, default: Date.now },
-  contacts: {
-    type: Array,
-  },
+  contacts: [{ type: Schema.Types.ObjectId, ref: "User" }],
 });
-
-/*userSchema.set("toJSON", {
-  virtuals: true,
-  versionKey: false,
-  transform: function (doc, ret) {
-    delete ret._id;
-    delete ret.hash;
-  },
-});*/
 
 const User = mongoose.model("User", userSchema);
 
