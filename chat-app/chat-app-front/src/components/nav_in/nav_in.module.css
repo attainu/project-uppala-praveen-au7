@@ -1,0 +1,11 @@
+.nav_in{
+    position: fixed;
+    top:0;
+    left:0;
+    height:75px;
+    width:100%;
+    background-color: rgb(106, 106, 110);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}

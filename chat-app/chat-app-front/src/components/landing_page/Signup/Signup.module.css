@@ -1,0 +1,34 @@
+.label_name{
+    margin-bottom: 0;
+}
+
+.inp{
+    border-color: rgb(74, 181, 243);
+    height: 20px;
+}
+
+.signup_btn{
+    margin:1cm;
+    border-radius: 5px;
+}
+.small_error{
+    color:red;
+}
+.small_success{
+    display:none;
+}
+.col{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.border_red{
+    border-color: red;
+}
+.border_green{
+    border-color:rgb(64, 250, 73);
+}
+.container{
+    width:300px;
+    
+}

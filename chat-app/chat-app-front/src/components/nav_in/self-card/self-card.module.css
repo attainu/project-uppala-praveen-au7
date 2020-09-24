@@ -1,0 +1,21 @@
+.selfcard{
+  
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.profile_img{
+   
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.profile_name{
+    
+    color:white;
+   
+}
+

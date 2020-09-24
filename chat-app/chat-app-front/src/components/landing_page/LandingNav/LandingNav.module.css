@@ -1,0 +1,28 @@
+.landing_nav{
+    position: fixed;
+    top:0;
+    left:0;
+    height:75px;
+    width:100%;
+    background-color: rgb(106, 106, 110);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 20px;
+   
+}
+.link{
+    margin-right: 10px;
+    list-style-type: none;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    margin-left: 20px;
+}
