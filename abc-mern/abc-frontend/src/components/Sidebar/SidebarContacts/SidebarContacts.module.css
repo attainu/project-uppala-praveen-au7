@@ -1,0 +1,46 @@
+.sidebarContacts{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    height: 60px;
+    border-bottom: 1px solid lightgrey;
+}
+.sidebarContacts:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    cursor: pointer;
+}
+.sidebarContacts__left{
+    display:flex;
+    align-items: center;
+    flex:0.2;
+    
+}
+
+.sidebarContacts__left__statusActive{
+    background-color: springgreen;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    align-self: flex-end;
+}
+.sidebarContacts__left__statusInactive{
+    background-color: grey;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    align-self: flex-end;
+}
+.sidebarContacts__right__lastSeen{
+    display: inline;
+}
+.sidebarContacts__right__notLastSeen{
+    display:none;
+}
+.sidebarContacts__right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

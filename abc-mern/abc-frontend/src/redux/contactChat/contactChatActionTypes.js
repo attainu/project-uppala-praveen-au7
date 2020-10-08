@@ -1,0 +1,1 @@
+export const FETCH_CONTACT_CHAT = "FETCH_CONTACT_CHAT"
