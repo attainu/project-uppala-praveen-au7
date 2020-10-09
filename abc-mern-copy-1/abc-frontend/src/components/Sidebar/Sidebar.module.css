@@ -1,0 +1,89 @@
+.sidebar{
+    display:flex;
+    flex-direction: column;
+    flex: 0.35;
+    border: 1px solid lightgrey;
+    
+}
+.sidebar__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: navy;
+    height: 15vh;
+   
+}
+
+.sidebar__headerLeft{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+.sidebar__headerRight__logoutBtn{
+    color: red;
+   
+}
+
+.sidebar__search{
+    display:flex;
+    align-items: center;
+    padding: 10px;
+    height: 39px;
+    background-color: whitesmoke;
+}
+.sidebar__searchContainer{
+    display:flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    
+}
+.sidebar__searchContainer__searchIcon {
+    color:grey ;
+    padding: 10px;
+}
+.sidebar__searchContainer > input {
+    border: none;
+    outline-width: 0; /* this removes the blue outline which appears when we click in the input field */
+    margin-left: 10px;
+    width: 100%;
+}
+.sidebar__contacts{
+    flex:1;
+    background-color: white;
+    overflow: auto;
+}
+.sidebar__addContact{
+    display:flex;
+    align-items: center;
+    padding: 10px;
+    height: 39px;
+    background-color: whitesmoke;
+}
+
+.sidebar__addContact__container{
+    display:flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.sidebar__addContact__container > input{
+    border: none;
+    outline-width: 0; /* this removes the blue outline which appears when we click in the input field */
+    margin-left: 10px;
+    width: 100%;
+}
+
+.sidebar__addContact__btn{
+    margin: 5px;
+    
+}
+.sidebar__addContact__noBtn{
+    display:none;
+}

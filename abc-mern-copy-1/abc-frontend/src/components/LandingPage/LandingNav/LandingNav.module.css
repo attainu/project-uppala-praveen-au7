@@ -1,0 +1,40 @@
+.landing_nav{
+    position: fixed;
+    top:0;
+    left:0;
+    height:75px;
+    width:100%;
+    background-color: rgb(37, 104, 190);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+.link{
+    margin-right: 10px;
+    list-style-type: none;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    
+   
+}
+.link:hover{
+    color:yellow;
+   
+}
+.active_link{
+    color: orange;
+}
+.logo{
+    margin-left: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
